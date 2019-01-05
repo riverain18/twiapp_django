@@ -1,0 +1,18 @@
+<html>
+<head>
+    <title>TOP</title>
+</head>
+<body>
+    <div>
+        <a href="/twitterManager/logout"><button type="button">ログアウト</button></a>
+    </div>
+    <div>
+        <div>
+            <p><b>ScreenName</b>:{{ user.access_token.screen_name }}</p>
+            <p><b>UserID</b>:{{ user.access_token.user_id }}</p>
+            <p><b>OAuthTokenSecret</b>:{{ user.access_token.oauth_token_secret }}</p>
+            <p><b>AuthToken</b>:{{ user.extra_data.auth_time }}</p>
+        </div>
+    </div>
+</body>
+</html>
